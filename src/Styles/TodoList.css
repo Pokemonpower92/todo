@@ -1,0 +1,20 @@
+.TodoList {
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  background-color: rgb(162, 78, 241);
+  text-align: center;
+  margin: auto;
+  margin-top: 5em;
+  width: 500px;
+  min-height: 25em;
+}
+
+.TodoList-title {
+  color: rgb(40, 16, 54);
+}
+
+.TodoList-form {
+  margin-top: auto;
+  margin-bottom: 1em;
+}

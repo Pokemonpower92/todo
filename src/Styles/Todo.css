@@ -1,0 +1,103 @@
+.Todo-rendered {
+  height: 2em;
+  margin: 0 -1rem 4px;
+  padding: 1.1rem 1rem;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(17, 17, 17);
+  font-weight: 500;
+  background-color: rgb(101, 21, 177);
+  width: 26em;
+  border-radius: 7px;
+}
+
+.Todo-rendered:hover {
+  font-weight: bold;
+  width: 30em;
+}
+
+.Todo-rendered-content {
+  display: flex;
+  margin-top: 3px;
+}
+
+.Todo-rendered-buttons {
+  margin-left: auto;
+}
+
+.Todo-rendered-buttons button:hover {
+  color: rgb(37, 37, 37);
+  background-color: rgb(162, 78, 241);
+}
+
+.Todo-rendered-buttons button {
+  background-color: rgb(37, 37, 37);
+  color: rgb(162, 78, 241);
+  height: 20px;
+  border: none;
+  margin: 5px;
+  width: 30px;
+  border-radius: 5px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.Todo-editing {
+  height: 2em;
+  margin: 0 -1rem 4px;
+  padding: 1.1rem 1rem;
+  align-items: center;
+  background-color: rgb(101, 21, 177);
+  width: 26em;
+  border-radius: 7px;
+}
+
+.Todo-editing:hover {
+  font-weight: bold;
+  width: 30em;
+}
+
+.Todo-editing-content {
+  display: flex;
+}
+
+.Todo-editing-form {
+  display: flex;
+  width: 275px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.Todo-editing-button {
+  margin-left: auto;
+}
+
+.Todo-editing-button button {
+  background-color: rgb(37, 37, 37);
+  color: rgb(162, 78, 241);
+  height: 20px;
+  border: none;
+  width: 30px;
+  border-radius: 5px;
+}
+
+.Todo-finished {
+  background-color: blueviolet;
+  text-decoration: line-through;
+  height: 2em;
+  margin: 0 -1rem 4px;
+  padding: 1.1rem 1rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 26em;
+  border-radius: 7px;
+}
+
+.Todo-finished:hover {
+  font-weight: bold;
+  width: 30em;
+}
