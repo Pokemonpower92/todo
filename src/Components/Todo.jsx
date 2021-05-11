@@ -15,11 +15,15 @@ class Todo extends Component {
 
     handleSubmit = (evt) => {
         evt.preventDefault();
-        this.props.editTodo({ 
-            task: this.state.task, 
-            id: this.props.id,
-        })
-        this.handleEdit();
+        if(this.state.task === ""){
+            alert("Enter a task!");
+        } else {
+            this.props.editTodo({ 
+                task: this.state.task, 
+                id: this.props.id,
+            })
+            this.handleEdit();
+        }
     }
 
     handleEdit = () => {
